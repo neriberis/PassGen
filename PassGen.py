@@ -114,7 +114,7 @@ def ws_move_to_length():
         ws_move_to_length()
 
 
-"""The two buttons for activating the different password generators"""
+# The two buttons for activating the different password generators
 tk.Button(root, text='All', command=all_move_to_length, width=4, font='times 12').grid(row=1, column=1)
 tk.Button(root, text='WS', command=ws_move_to_length, width=4, font='times 12').grid(row=1, column=2)
 
