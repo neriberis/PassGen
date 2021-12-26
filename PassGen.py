@@ -4,8 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 import pyperclip as pc
 
-"""create a random password decrypter
-"""
 
 root = tk.Tk()
 root.title('PassGen')
